@@ -10,3 +10,5 @@ El servidor web Apache está entre los más populares del mundo. Está bien docu
 
 Instale Apache usando el administrador de paquetes de Ubuntu, apt:
 
+`sudo apt update
+sudo apt install apache2`
