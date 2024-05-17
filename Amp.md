@@ -14,3 +14,13 @@ Instale Apache usando el administrador de paquetes de Ubuntu, apt:
 sudo apt update
 sudo apt install apache2
 ```
+
+Si es la primera vez que utiliza sudo en esta sesión, se le pedirá que proporcione su contraseña de usuario para confirmar que tenga los privilegios adecuados para administrar los paquetes del sistema con apt.  También se le solicitará que confirme la instalación de Apache al pulsar `Y` y `ENTER`.
+
+Una vez que la instalación se complete, deberá ajustar la configuración de su firewall para permitir tráfico HTTP y HTTPS. UFW tiene diferentes perfiles de aplicaciones que puede aprovechar para hacerlo. Para enumerar todos los perfiles de aplicaciones de UFW disponibles, puede ejecutar lo siguiente:
+```sh
+sudo ufw app list
+```
+
+Verá un resultado como este:
+
