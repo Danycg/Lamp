@@ -24,3 +24,4 @@ sudo ufw app list
 
 Verá un resultado como este:
 
+
